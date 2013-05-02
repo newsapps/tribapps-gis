@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Cook County Board of Commissioners</origin>
+				<pubdate>201006</pubdate>
+				<title Sync="TRUE">planim_GIS_MuniWards2011</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\GIBKD2UA7371KNQ\I$\Data Requests\Tribune - Andy Boyle\Planimetry.gdb</onlink>
+				<ftname Sync="TRUE">planim_GIS_MuniWards2011</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+This file is a digital geospatial Environmental Systems Research Institute (ESRI) ArcGIS polygon feature class of Municipal Wards for Cook County, Illinois. The data are stored in an ESRI ArcGIS Version 9.2 geodatabase.
+
+This municipal wards feature class interprets the location and describes the boundaries of all municipal wards completely located within Cook County (except City of Chicago), Illinois. Wards are intended to serve as administrative subunits that are aggregated into election districts of equal population. Cities, villages, and towns form municipal wards (also known as council or trustee districts) by combining whole census blocks. Municipalities are required to adjust ward boundaries following the decennial federal census to conform to statutorily prescribed population ranges and meet other requirements including compactness, contiguity, and community of interest. Once established, wards serve as the building blocks used by the legislature, counties, cities, and villages in redistricting their respective election districts. The establishment of wards was made mandatory following the 1980 Census, and the legislature used those wards to form legislative districts. The use of locally defined wards which take into account growth patterns, communities of interest, and geography rather than the population collection units devised by the Census Bureau, provides a more meaningful building block to form election districts. In addition, using the same wards to describe the boundaries of aldermanic, supervisory, and legislative districts aids voters and election officials.
+
+Attribution in this feature class includes a municipality name, municipality ward number and ward type.
+
+This feature class is current as of 2010.
+
+This dataset is projected using the Transverse Mercator map projection. The grid coordinate system used is the Illinois State Plane Coordinate System (Zone Number 1201), NAD83 with ground coordinates expressed in U.S. Survey Feet.
+</abstract>
+			<purpose>
+The purpose of the feature class is to interpret the location and description of municipal wards in Cook County, Illinois for general use by the public and to support internal business requirements of several County agencies. Balloting for general and primary elections may require inclusion of these subunits in order for registered voters to choose municipal trustees and board members.
+
+This feature class also supports summarization of existing data by these geographies, and acts as boundary file for thematic mapping.
+</purpose>
+			<supplinf>
+This dataset was also created to enhance an existing enterprise-wide GIS database that supports current and proposed applications involving executive decision and policy development, public access, land records management, planimetric mapping, infrastructure management, economic development, engineering, map production, and various land data analyses.
+
+Additional Information about Municipal Wards:
+
+Wards are constructed by aggregating whole census blocks so that the population of the ward falls within a predetermined range. The census block is the smallest unit for which population is tabulated, and is typically bounded by streets or other prominent physical features. Political limits (municipal and county boundaries) may also serve as block boundaries. Blocks may be as small as a typical city block bounded by four streets or as large as several square miles in rural areas. They usually contain less than 100 people. There are two exemptions to the whole block requirement. A municipality may split a census block if its population is too large to permit the establishment of aldermanic districts of equal population. If annexed or detached territory divides a block, the affected municipalities may incorporate only the portion of the block contained within their boundaries. Any division of blocks must be based on the best evidence available. Best evidence includes data such as housing units, utility connections, and vehicle registrations.
+
+Wards should as far as practicable, be kept compact and observe the community of interest of existing neighborhoods. The only exception is island territory which is defined as territory separated from the major part of the municipality by water or the territory of another municipality.
+
+Municipalities must make a good faith effort to accommodate the tentative county supervisory district plan by establishing wards which meet the county's needs.
+
+Wards must be constructed in a manner that permits the creation of supervisory and aldermanic districts of substantially equal population. They must also enhance the participation of members of racial or language minority groups in the political process and their ability to elect representatives of choice.
+
+Wards must comply with the population ranges specified by law and may not cross municipal, county, or legislative district boundaries
+
+Ward boundaries are intended to be as permanent as possible with changes made only to accommodate changes in population growth patterns, alterations in municipal boundaries, or the mathematical requirements of creating election districts of equal population. Ward boundaries require adjustment under the following circumstances:
+
+1. Municipalities are required to adjust the boundaries of those wards which, according to the 2000 Census of Population, have either gained or lost population and as a result no longer fit with the statutory population ranges. A ward which exceeds the maximum of the applicable population range is to be divided into two or more wards; a ward which falls below the minimum of the applicable population range is to be combined with an adjacent ward or combined with the adjacent ward and subdivided into two or more wards.
+
+2. Municipalities are also required to consider the racial and ethnic characteristics of the population when adjusting ward boundaries so that members of racial or language minority groups have an opportunity to elect candidates of their choice. Although wards do not directly constitute election districts, they are used to form such districts. Thus, minority population must be distributed within a combination of wards in such a manner as to make it possible to combine those wards to construct an aldermanic or supervisory district in which a racial or language minority has an opportunity to elect a representative of its choice. Court decisions have held that Black and Hispanic populations must be given special attention in redistricting and that election districts must be drawn so that a minority group has a fair chance to elect a candidate of choice.
+
+3. Adjustments in ward boundaries must be made to accommodate annexations, detachments, or other changes in municipal boundaries that have occurred since the previous ward plan was adopted.
+
+4. Wards may also need adjustment to permit the establishment of county supervisory districts of equal population. Municipalities are required to consider the tentative county supervisory district plan in determining whether existing ward boundaries need to be changed. The county's tentative plan is to indicate both the number and boundaries of the proposed supervisory districts. In the event that a municipality needs to be divided into two or more supervisory districts which cannot be accommodated within the existing ward plan, the county board is to submit a written statement to the municipality indicating the approximate location and population of the requested wards.
+
+5. A municipality may find it necessary to adjust existing ward boundaries if they no longer allow for the creation of aldermanic districts that are as nearly equal in population as practicable.
+
+6. Once established, the boundaries of each ward are to remain unchanged until the next decennial census. However, several exceptions are recognized, although no ward line adjustment may cross the boundary of an assembly district. A town board may adjust ward boundaries if a new town is created or if part of the town is annexed to a city or village and realignment of the remaining town wards becomes necessary. A city, village, or town must adjust ward boundaries to reflect a municipal detachment.
+New territory that becomes part of a municipality during the decade constitutes a new ward, even if that ward falls below the prescribed minimum population range. Finally, a ward may be adjusted by the legislature, as a matter of statewide concern, in the enactment of legislative districts.
+
+The only reasons for adjusting ward boundaries are to: 1) comply with the population ranges required by law, 2) reflect changes in municipal boundaries occurring subsequent to the adoption of the previous ward plan, 3) permit the establishment of election districts of substantially equal population, and 4) permit the establishment of aldermanic or supervisory districts which enhance the participation of minorities in the political process and their ability to elect representatives of their choice. The intent is that wards remain relatively permanent, with changes in ward boundaries made only to accommodate changes in population growth patterns, alterations in municipal boundaries, or the mathematical requirements of creating election districts of equal population. In addition to the obvious benefit of greatly simplifying the task of reestablishing a ward plan based on the decennial census, municipalities benefit in other ways when ward lines are not disturbed. When wards remain relatively constant, the administration of elections is simplified. Although the combination of wards comprising an election district may change, and aldermanic, supervisory, legislative, and congressional districts must be redrawn to reflect shifts in population, ward boundaries often need not change. Voter identification with the ward develops and is strengthened over time, and election officials have fewer problems in administering elections.
+
+The establishment of municipal wards requires cooperation between the municipality and the county board of each county in which a municipality is located and involves a 3-step process. Each step must be completed within 60 days. Step 1 requires the county board to submit a tentative county supervisory district plan to each municipal governing body in the county. The county board is required to hold a public hearing on the tentative plan. If a municipality needs to be divided and placed in more than one supervisory district, the board is to indicate the approximate location of the territory from which a ward is sought and the approximate population of the ward. In step 2, municipalities have a maximum of 60 days to adjust ward boundaries to comply with the proposed supervisory district plan following receipt of the tentative plan. The third 60-day step requires counties to adopt final supervisory district plans and cities to establish aldermanic district plans. The governing body of a municipality, the common council or village or town board, is responsible for establishing ward boundaries. An ordinance or resolution describing the ward boundaries must be adopted by a majority of the members of the governing body. If a municipality fails to adopt a ward plan within the prescribed time period, the county or any elector of the municipality may submit a proposed ward plan to the appropriate circuit court. If the court finds that the existing municipal ward plan fails to comply with statutory requirements, it may promulgate the submitted plan, or any other plan, to serve as a temporary ward plan until superseded by a valid plan enacted by the municipality.
+
+Each step begins when the previous step is completed and each step must be completed within 60 days.
+
+The common council of a city is required to redistrict aldermanic districts within 60 days of adjusting its ward boundaries. Aldermanic districts are to be constructed from contiguous whole wards (including any isolated ward consisting of island territory surrounded by water or another municipality), must be as compact as possible, and must contain, as nearly as practicable, an equal number of inhabitants. The redistricting ordinance must be adopted by a majority vote of all members of the common council. The common council is authorized to increase or decrease the number of aldermanic districts during the decade. Such action must not occur more frequently than once every two years and requires a two-thirds vote of the common council. Only towns and villages with a population of 1,000 or more are required to establish wards. However, all municipalities may be required to establish wards when necessary to create supervisory, legislative, or congressional districts of equal population. Town supervisors and village trustees continue to be elected on an at-large basis.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20100305</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As-needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-88.097708</westbc>
+				<eastbc Sync="TRUE">-87.518100</eastbc>
+				<northbc Sync="TRUE">42.153905</northbc>
+				<southbc Sync="TRUE">41.480805</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1048811.425000</leftbc><rightbc Sync="TRUE">1205316.134000</rightbc><bottombc Sync="TRUE">1754432.944000</bottombc><topbc Sync="TRUE">1998764.227000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Municipal wards</themekey>
+				<themekey>Council Districts</themekey>
+				<themekey>Trustee Districts</themekey>
+			</theme>
+			<theme>
+				<themekt>Metadata Service Theme Categories</themekt>
+				<themekey>Administrative and political boundaries</themekey>
+				<themekey>Off-line data</themekey>
+			</theme>
+			<place>
+				<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of The United States, and Associated Areas (FIPS 5-2): Washington, DC, National Institute of Standards and Technology.</placekt>
+				<placekey>Illinois</placekey>
+			</place>
+			<place>
+				<placekt>Illinois Compiled Statutes, 70 ILCS 1705, State of Illinois, 1994</placekt>
+				<placekey>northeastern Illinois</placekey>
+			</place>
+			<place>
+				<placekt>"Geographic Identification Code Scheme (PHC80-R5)." 1980 Census of Population and Housing, Bureau of the Census, U.S. Department of Commerce, April 1983.</placekt>
+				<placekey>Cook County</placekey>
+			</place>
+		</keywords>
+		<accconst>Access to this feature dataset is available to county and municipal agencies. Editing privileges are restricted to authorized GIS staff members or its designees.</accconst>
+		<useconst>
+Under no circumstances may the data be redistributed or made available over a network without explicit permission from Cook County.
+
+It is required that Cook County be cited in any products generated from the data. The following source citation must be included: "Source: Cook County Metadata of Various GIS Layers Project (Contract No. 09-41-326), 2010 Municipal Wards for Cook County, Illinois. Geodatabase Vector Digital Data, Version 1.0. Published June 2010."
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Cook County Bureau of Technology</cntorg>
+					<cntper>Alan Hobscheid</cntper>
+				</cntorgp>
+				<cntpos>GIS Manager, Department of Geographic Information Systems</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>69 W. Washington Street</address>
+					<address>Room 2700</address>
+					<city>Chicago</city>
+					<state>Illinois</state>
+					<postal>60602</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>312-603-1399</cntvoice>
+				<cntfax>312-603-9713</cntfax>
+				<cntemail>ahobscheid@cookcountygov.com</cntemail>
+				<hours>09:00 - 17:00, Central Time Zone, Monday - Friday, except holidays</hours>
+				<cntinst>Please contact during normal business hours.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Cities of: Blue Island, Burbank, Calumet City, Chicago Heights, Country Club Hills, Countryside, Des Plaines, Harvey, Hickory Hills, Hometown, Markham, Maywood, Northlake, Oak Forest, Oak Lawn, Palatine, Palos Heights, Palos Hills, Park Ridge, Prospect Heights and Rolling Meadows.</datacred>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Repeated usage and inspection of the data have produced results (attributes) that are assessed to be highly accurate.</attraccr>
+		</attracc>
+		<logic>Features are stored in high precision, using ESRI ARCGIS 9.2 software, as an SDE geodatabase. This GIS dataset does not have topology rules in effect.</logic>
+		<complete>This feature class interprets the location and description of all municipal wards in Cook County, Illinois, except in the City of Chicago, as of March 2010.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+All planimetric and cadastral layers used as reference during the creation of the feature classes shared the same horizontal positional accuracy. As such, the horizontal positional accuracy report of those reference layers is presented here:
+
+"This data set meets National Map Accuracy Standards for 1"=100' data products, and has an absolute horizontal positional accuracy of 2.5 feet (0.7625 meters)."
+</horizpar>
+				<qhorizpa>
+					<horizpav>0.7625</horizpav>
+					<horizpae>National Map Accuracy Standards (NMAS)</horizpae>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Illinois General Assembly</origin>
+						<pubdate></pubdate>
+						<title>Illinois Compiled Statutes 65 ILCS 5 Illinois Municipal Code. Section 3.1-20-25</title>
+						<geoform>Document</geoform>
+						<pubinfo>
+							<pubplace>Springfield, Illinois</pubplace>
+							<publish>Illinois General Assembly</publish>
+						</pubinfo>
+						<othercit>
+(65 ILCS 5/3.1-20-25) (from Ch. 24, par. 3.1-20-25)
+Sec. 3.1-20-25. Redistricting a city.
+
+(a) In the formation of wards, the number of inhabitants of the city immediately preceding the division of the city into wards shall be as nearly equal in population, and the wards shall be of as compact and contiguous territory, as practicable. Wards shall be created in a manner so that, as far as practicable, no precinct shall be divided between 2 or more wards.
+
+(b) Whenever an official census shows that a city contains more or fewer wards than it is entitled to, the city council of the city, by ordinance, shall redistrict the city into as many wards as the city is entitled. This redistricting shall be completed not less than 30 days before the first day set by the general election law for the filing of candidate petitions for the next succeeding election for city officers. At this election there shall be elected the number of aldermen to which the city is entitled, except as provided in subsection (c).
+
+(c) If it appears from any official census that a city has the requisite number of inhabitants to authorize it to increase the number of aldermen, the city council shall immediately proceed to redistrict the city and shall hold the next city election in accordance with the new redistricting. At this election the aldermen whose terms of office are not expiring shall be considered aldermen for the new wards respectively in which their residences are situated. At this election, in a municipality that is not a newly incorporated municipality, a candidate for alderman may be elected from any ward that contains a part of the ward in which he or she resided at least one year next preceding the election that follows the redistricting, and, if elected, that person may be reelected from the new ward he or she represents if he or she resides in that ward for at least one year next preceding reelection. If there are 2 or more aldermen with terms of office not expiring and residing in the same ward under the new redistricting, the alderman who holds over for that ward shall be determined by lot in the presence of the city council, in the manner directed by the council, and all other aldermen shall fill their unexpired terms as aldermen-at-large. The aldermen-at-large, if any, shall have the same powers and duties as all other aldermen, but upon the expiration of their terms the offices of aldermen-at-large shall be abolished.
+
+(d) If the redistricting results in one or more wards in which no aldermen reside whose terms of office have not expired, 2 aldermen shall be elected in accordance with Section 3.1-20-35, unless the city elected only one alderman per ward pursuant to a referendum under subsection (a) of Section 3.1-20-20.
+
+(e) A redistricting ordinance that has decreased the number of wards of a city because of a decrease in population of the city shall not be effective if, not less than 60 days before the time fixed for the next succeeding general municipal election, an official census is officially published that shows that the city has regained a population that entitles it to the number of wards that it had just before the passage of the last redistricting ordinance. (Source: P.A. 95-646, eff. 1-1-08.)
+</othercit>
+						<onlink>&lt;http://www.ilga.gov/legislation/ilcs/ilcs4.asp?DocName=006500050HArt.+3.1&amp;ActID=802&amp;ChapAct=65%C2%A0ILCS%C2%A05/&amp;ChapterID=14&amp;ChapterName=MUNICIPALITIES&amp;SectionID=13010&amp;SeqStart=32900000&amp;SeqEnd=45500000&amp;ActName=Illinois+Municipal+Code.&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Not applicable</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>Illinois Municipal Code. Section 3.1-20-25</srccitea>
+				<srccontr>Legal reference used by municipalities during the drawing of municipal ward boundaries.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>200712</pubdate>
+						<title>Cook County Board of Commissioners, Illinois 1:1200-Scale 1998 Street Midlines, Version 1.0, December 2007</title>
+						<edition>1.0</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County Network</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>199804</begdate>
+							<enddate>200712</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>Cook County Street Midlines</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>200611</pubdate>
+						<title>Cook County, Illinois 1:1200-Scale 1998 Hydrography Midlines, Version 1.0, March 2002</title>
+						<edition>2.0</edition>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County network</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>20030426</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030427</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030429</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030502</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030503</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030513</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>Cook County Hydrography Midlines</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>200611</pubdate>
+						<title>Cook County, Illinois 1:1200-Scale 1998 Hydrography Polygons, Version 1.0, March 2002</title>
+						<edition>1.0</edition>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County network</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>20030426</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030427</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030429</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030502</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030503</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20030513</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>Cook County Hydrography Polygons</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>20020201</pubdate>
+						<title>Cook County, Illinois 1:1200-Scale Public Land Survey System (PLSS)/Land Index, Version 1.0, June 2002</title>
+						<edition>2001</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County network</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>2000</begdate>
+							<enddate>2001</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>PLSS</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>200206</pubdate>
+						<title>Cook County Railroad Lines and Features</title>
+						<edition>1.0</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County network</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>199804</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>Cook County Railroad Lines and Features</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cook County Board of Commissioners</origin>
+						<pubdate>1998</pubdate>
+						<title>Cook County, Illinois 1:1200-Scale Administrative Districts Digital Data Set, Version 1.0, June 2002</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Chicago, Illinois</pubplace>
+							<publish>Cook County Board of Commissioners</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>Cook County network</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>2000</begdate>
+							<endtime>2001</endtime>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>Cook County Municipalities</srccitea>
+				<srccontr>Used as a reference layer to interpret the boundary of a municipal ward.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+1) Data Collection
+
+During March 2010, a Cook County GIS Technician was provided with a list of subject matter experts at twenty-one (21) city governments. The GIS Technician contacted the following city governments to request a map and/or description of each city's municipal wards:
+
+1.  Blue Island
+2.  Burbank
+3.  Calumet City
+4.  Chicago Heights
+5.  Country Club Hills
+6.  Countryside
+7.  Des Plaines
+8.  Harvey
+9.  Hickory Hills
+10. Hometown
+11. Markham
+12. Maywood
+13. Northlake
+14. Oak Forest
+15. Oak Lawn
+16. Palatine
+17. Palos Heights
+18. Palos Hills
+19. Park Ridge
+20. Prospect Heights
+21. Rolling Meadows
+
+Each city returned either a hard copy map, GIS shapefile, or referred the GIS Technician to a map available on the city's web site.
+
+2) Digitization of Municipal Boundary Descriptions
+With the assistance of a variety of Cook County GIS layers, each boundary description of a municipal ward was digitized by a Cook County GIS technician. Using each textual description and map depiction of the municipal ward, the interpreted boundary of the municipal ward was digitized. The GIS layers used to facilitate the process included:
+
+1. Cook County Hydrography Midlines
+2. Cook County Hydrography Polygons
+3. Cook County Street Midlines
+4. Cook County Railroad Lines and Features
+5. Cook County Municipalities
+6. Public Land Survey System.
+
+Upon completion of the digitization of each municipal ward, the feature was then attributed with a municipality name, municipality ward number and ward type. The data was saved as an ArcGIS version 9.x polygon feature class.
+</procdesc>
+				<srcused>Cook County Street Midlines, Cook County Hydrography Midlines, Cook County Hydrography Polygons, PLSS, Cook County Railroad Lines and Features, Cook County Municipalities.</srcused>
+				<procdate>20100305</procdate>
+				<srcprod>Cook County Metadata of Various GIS Layers Project (Contract No. 09-41-326), 2010 Municipal Wards for Cook County, Illinois. Geodatabase Vector Digital Data, Version 1.0. Published June 2010.</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Cook County Bureau of Information Technology and Automation</cntorg>
+							<cntper>David Arfa</cntper>
+						</cntorgp>
+						<cntpos>System Analyst II</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>69 W. Washington Street</address>
+							<address>Room 2700</address>
+							<city>Chicago</city>
+							<state>Illinois</state>
+							<postal>60602</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>312-603-1362</cntvoice>
+						<cntfax>312-603-9713</cntfax>
+						<cntemail>darfa@cookcountygov.com</cntemail>
+						<hours>09:00 - 17:00, Central Time Zone, Monday - Friday, except holidays</hours>
+						<cntinst>Please contact during normal business hours.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">X:\XFER\metadata\2009project\AdministrativePolitical\muniward.xml</srcused><procdate Sync="TRUE">20120201</procdate><proctime Sync="TRUE">10261500</proctime></procstep></lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Cook County, Illinois</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="planim_GIS_MuniWards2011"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="planim_GIS_MuniWards2011"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">0</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000250</absres>
+						<ordres Sync="TRUE">0.000250</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999975</sfctrmer><longcm Sync="TRUE">-88.333333</longcm><latprjo Sync="TRUE">36.666667</latprjo><feast Sync="TRUE">984250.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<overview>
+			<eaover>
+This dataset contains a polygon feature class that represents municipal wards for Cook County, Illinois. In addition to automatically generated fields and associated attributes, this feature class includes:
+
+Municipality name
+Municipality ward number
+Ward type
+</eaover>
+			<eadetcit>
+Cook County Metadata of Various GIS Layers Project (Contract No. 09-41-326), 2010 Municipal Wards for Cook County, Illinois. Geodatabase Vector Digital Data, Version 1.0. Published June 2010.
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt; Source: Cook County Board of Commissioners
+&gt; Format: Data stored in ESRI ArcGIS 9.2
+&gt; Data Dictionary: Municipal Ward Boundaries
+&gt; Feature Class Name: localWards
+&gt; Feature Class Maintained: Polygon Feature Class
+&gt;
+&gt;---------------------------------------------------------------------
+&gt;
+&gt; Attribute Label  Attribute Definition               Attribute Type
+&gt;                                                  Lth            Type
+&gt; OBJECTID         Internal feature number                        ObID
+&gt; SHAPE            Feature geometry                                Geo
+&gt; MUNICIPALITY     Municipality name                30            Text
+&gt; NUMBER           Ward number                                   Short
+&gt; TYPE             Ward type                        35            Text
+&gt; SHAPE_Length     Internal feature length                          Db
+&gt; SHAPE_Area       Internal feature area                            Db
+&gt;
+&gt; Key:  Lth= Length                       Type:   Db= Double
+&gt;      Prec= Precision                          ObID= Object ID
+&gt;                                                Geo= Geometry
+&gt;                                              Short= Short Integer
+&gt;
+&gt; OBJECTID
+&gt; Attribute Definition: Sequential unique whole numbers that are
+&gt;                       automatically generated.
+&gt; Attribute Definition Source: ESRI
+&gt; Attribute Domain Values:
+&gt;   Range Domain: OBJECTID 1 to 118
+&gt;
+&gt; SHAPE
+&gt; Attribute Definition: Feature geometry
+&gt; Attribute Definition Source: ESRI
+&gt; Attribute Domain Values:
+&gt;   Enumerated Domain: SHAPE = "Polygon"
+&gt;
+&gt; MUNICIPALITY
+&gt; Attribute Definition: Name of municipality within which the ward is
+&gt;                       located.
+&gt; Attribute Definition Source: Cook County Board of Commissioners
+&gt;   Enumerated Domain:
+&gt;
+&gt; NUMBER
+&gt; Attribute Definition: Ward number
+&gt; Attribute Definition Source: Cook County Board of Commissioners
+&gt; Attribute Domain Values:
+&gt;   Unrepresentable Domain:
+&gt;
+&gt; WARD TYPE
+&gt; Attribute Definition: Ward type
+&gt; Attribute Definition Source: Cook County Board of Commissioners
+&gt; Attribute Domain Values:
+&gt;   Enumerated Domain: "Ward"
+&gt;                      "Trustee District"
+&gt;                      "Council District"
+&gt;
+&gt; SHAPE_Length
+&gt; Attribute Definition: Internal feature length in US Survey Feet.
+&gt; Attribute Definition Source: ESRI
+&gt; Attribute Domain Values:
+&gt;   Unrepresentable Domain
+&gt;
+&gt; SHAPE_Area
+&gt; Attribute Definition: Internal feature area in US Survey Feet.
+&gt; Attribute Definition Source: ESRI
+&gt; Attribute Domain Values:
+&gt;   Unrepresentable Domain
+</eadetcit>
+		</overview>
+		<detailed Name="planim_GIS_MuniWards2011"><enttyp><enttypl Sync="TRUE">planim_GIS_MuniWards2011</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID_1</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">MUNICIPALI</attrlabl><attalias Sync="TRUE">MUNICIPALI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NUMBER</attrlabl><attalias Sync="TRUE">NUMBER</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TYPE</attrlabl><attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Cook County Bureau of Technology</cntorg>
+					<cntper>Alan Hobscheid</cntper>
+				</cntorgp>
+				<cntpos>GIS Manager, Department of Geographic Information Systems</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>69 W. Washington Street</address>
+					<address>Room 2700</address>
+					<city>Chicago</city>
+					<state>Illinois</state>
+					<postal>60602</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>312-603-1399</cntvoice>
+				<cntfax>312-603-9713</cntfax>
+				<cntemail>ahobscheid@cookcountygov.com</cntemail>
+				<hours>09:00 - 17:00, Central Time Zone, Monday - Friday, except holidays</hours>
+				<cntinst>Please contact during normal business hours.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Cook County Metadata of Various GIS Layers Project (Contract No. 09-41-326), 2010 Municipal Wards for Cook County, Illinois. Geodatabase Vector Digital Data, Version 1.0. Published June 2010.</resdesc>
+		<distliab>
+Cook County Government Department of Geographic Information Systems GIS Maps/Data Disclaimer:
+
+All Cook County Government (Cook County) geospatial data and maps are copyrighted. By providing you with a copy of Cook County generated maps and geospatial data, via hardcopy, electronic media or online access, you are not entitled to repackage, resell or distribute this information without the written permission of the Cook County Board of Commissioners. While efforts have been made to be as accurate as possible, Cook County provides the data for your personal use "as is". The data is not guaranteed to be accurate, correct, or complete. Information provided should not be used as a substitute for legal, business, tax, or other professional advice. The viewer should contact appropriate regulating agencies to determine accuracy or suitability of the data for a particular use. Cook County, nor its staff, assume no liability whatsoever for any losses that might occur from the use, misuse, or inability to use its geospatial data, metadata, maps or websites. By making this information available, Cook County assumes no obligation to assist the user in interpreting, browsing or using the data, metadata, maps or any application. All material appearing on the web site, any form of electronic transmission and printed hardcopy is provided and transmitted without warranty of any kind and are subject to the terms on this disclaimer.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcGIS</formname>
+					<formvern>9.2</formvern>
+					<formspec>ESRI Polygon Feature Classes</formspec>
+					<formcont>This ESRI feature dataset contains one (1) feature class.</formcont>
+					<filedec>No compression applied</filedec>
+					<transize>1</transize>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<reccap>
+							<recden>750</recden>
+							<recdenu>Megabytes</recdenu>
+						</reccap>
+						<recfmt>DOS-Copy</recfmt>
+						<compat>Accessible on any computer capable of reading a CD-ROM</compat>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<turnarnd>Order dependent.</turnarnd>
+		</stdorder>
+		<custom>Call the individual listed as the Contact_Person in the Distribution_Information section of this metadata record to find out how to obtain this data set, the available formats, the available transfer media, compatibility, etc. This person will also be able to provide information about the fees associated with obtaining the data set.</custom>
+		<techpreq>Format compatibility is the user's responsibility.</techpreq>
+		<availabl>
+			<timeinfo>
+				<rngdates>
+					<begdate>201006</begdate>
+					<enddate>unknown</enddate>
+				</rngdates>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20121019</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Hoather</cntper>
+					<cntorg>Sub-contractor to Cook County Board of Commissioners.</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and/ physical</addrtype>
+					<address>225 W. Huron Street, #516</address>
+					<city>Chicago</city>
+					<state>Illinois</state>
+					<postal>60654</postal>
+				</cntaddr>
+				<cntvoice>773-251-4678</cntvoice>
+				<cntemail>mhoather@live.com</cntemail>
+				<cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20121022</CreaDate><CreaTime>11145200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20121019</SyncDate><SyncTime>14424100</SyncTime><ModDate>20121019</ModDate><ModTime>14424100</ModTime><ArcGISFormat>1.0</ArcGISFormat><DataProperties><itemProps><itemName Sync="TRUE">planim.GIS.MuniWards2011</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">Server=gissqlclstr1; Service=sde:sqlserver:gissqlclstr1; Database=planim; User=gis; Version=sde.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,984250.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-88.33333333333333],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.999975],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,36.66666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,3435]]&lt;/WKT&gt;&lt;XOrigin&gt;-17463800&lt;/XOrigin&gt;&lt;YOrigin&gt;-46132600&lt;/YOrigin&gt;&lt;XYScale&gt;4000&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.002&lt;/XYTolerance&gt;&lt;ZTolerance&gt;2&lt;/ZTolerance&gt;&lt;MTolerance&gt;2&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3435&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20120911" Time="132354">FeatureClassToFeatureClass C:\Users\wingente\Desktop\Muni_Wards.shp "Database Connections\planim_gis.sde\planim.GIS.Election" MuniWards2011 # "OBJECTID "OBJECTID" true true false 10 Double 0 10 ,First,#,C:\Users\wingente\Desktop\Muni_Wards.shp,OBJECTID,-1,-1;MUNICIPALI "MUNICIPALI" true true false 30 Text 0 0 ,First,#,C:\Users\wingente\Desktop\Muni_Wards.shp,MUNICIPALI,-1,-1;NUMBER "NUMBER" true true false 5 Long 0 5 ,First,#,C:\Users\wingente\Desktop\Muni_Wards.shp,NUMBER,-1,-1;TYPE "TYPE" true true false 35 Text 0 0 ,First,#,C:\Users\wingente\Desktop\Muni_Wards.shp,TYPE,-1,-1" #</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20121019" Time="144244">CopyFeatures "Database Connections\Connection to gissqlclstr1 (2).sde\planim.GIS.Election\planim.GIS.MuniWards2011" "I:\Data Requests\Tribune - Andy Boyle\Planimetry.gdb\planim_GIS_MuniWards2011" # 0 0 0</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">planim_GIS_MuniWards2011</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1048811.425</westBL><eastBL Sync="TRUE">1205316.134</eastBL><northBL Sync="TRUE">1998764.227</northBL><southBL Sync="TRUE">1754432.944</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-88.097708</westBL><eastBL Sync="TRUE">-87.5181</eastBL><northBL Sync="TRUE">42.153905</northBL><southBL Sync="TRUE">41.480805</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\GIBKD2UA7371KNQ\I$\Data Requests\Tribune - Andy Boyle\Planimetry.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distFormat></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" value="3435">NAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl><geometObjs Name="planim_GIS_MuniWards2011"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20121019</mdDateSt></metadata>

@@ -10,3 +10,6 @@ A repo storing various GIS data we've made or use in our hacking that we'd like 
 * Will County Board shapefiles -- received from Will County's GIS office
 * Our custom-made Illinois judicial shapefiles, which we built by hand looking at individual counties on maps located at http://www.state.il.us/court/circuitcourt/circuitmap/map1.asp
 
+Many other shapefiles are included, most are included unaltered from public sources.
+
+Also included is a definitions.py file which is used by [django-boundaryservice](https://github.com/newsapps/django-boundaryservice).
