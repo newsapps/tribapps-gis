@@ -47,9 +47,9 @@ SHAPEFILES = {
         'notes': '',
         'encoding': ''
     },
-    'Police Beats': {
-        'file': 'cpd_beats/cpd_beats.shp',
-        'singular': 'Police Beat',
+    '2010 Police Beats': {
+        'file': 'cpd_beats_2010/cpd_beats.shp',
+        'singular': 'Police Beat (2010)',
         'kind_first': True,
         'ider': utils.simple_namer(['BEAT_NUM']),
         'namer': utils.simple_namer(['BEAT_NUM'], normalizer=lambda s: '#%s' % s),
@@ -59,10 +59,10 @@ SHAPEFILES = {
         'href': 'http://gis.chicagopolice.org/',
         'notes': '',
         'encoding': ''
-    },  
-    'Police Areas': {
-        'file': 'cpd_areas/cpd_areas.shp',
-        'singular': 'Police Area',
+    },
+    '2010 Police Areas': {
+        'file': 'cpd_areas_2010/cpd_areas.shp',
+        'singular': 'Police Area (2010)',
         'kind_first': True,
         'ider': utils.simple_namer(['AREA_NUM']),
         'namer': utils.simple_namer(['AREA_NUM'], normalizer=lambda s: '#%s' % s),
@@ -73,15 +73,67 @@ SHAPEFILES = {
         'notes': 'Removed polygons with AREA_NUM set to NULL as they were outside the city.',
         'encoding': ''
     },
-    'Police Districts': {
-        'file': 'cpd_districts/cpd_districts.shp',
-        'singular': 'Police District',
+    '2010 Police Districts': {
+        'file': 'cpd_districts_2010/cpd_districts.shp',
+        'singular': 'Police District (2010)',
         'kind_first': False,
         'ider': utils.simple_namer(['DIST_NUM']),
         'namer': utils.simple_namer(['DIST_NUM'], normalizer=lambda s: ordinal(s)),
         'authority': 'Chicago Police Department',
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 13),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Beats': {
+        'file': 'cpd_beats_2012/cpd_beats.shp',
+        'singular': 'Police Beat',
+        'kind_first': True,
+        'ider': utils.simple_namer(['BEAT_NUM']),
+        'namer': utils.simple_namer(['BEAT_NUM'], normalizer=lambda s: '#%s' % s),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Areas': {
+        'file': 'cpd_areas_2012/cpd_areas.shp',
+        'singular': 'Police Area',
+        'kind_first': True,
+        'ider': utils.simple_namer(['AREA_NUM']),
+        'namer': utils.simple_namer(['AREA_NUM'], normalizer=lambda s: '#%s' % s),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 3, 2),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Districts': {
+        'file': 'cpd_districts_2012/cpd_districts.shp',
+        'singular': 'Police District',
+        'kind_first': False,
+        'ider': utils.simple_namer(['DIST_NUM']),
+        'namer': utils.simple_namer(['DIST_NUM'], normalizer=lambda s: ordinal(s)),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Sectors': {
+        'file': 'cpd_sectors_2012/cpd_sectors.shp',
+        'singular': 'Police Sector',
+        'kind_first': False,
+        'ider': utils.simple_namer(['SECTOR']),
+        'namer': utils.simple_namer(['SECTOR'], normalizer=lambda s: ordinal(s)),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
         'href': 'http://gis.chicagopolice.org/',
         'notes': '',
         'encoding': ''
