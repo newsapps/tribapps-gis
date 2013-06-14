@@ -18,7 +18,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 12),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Neighborhoods': {
         'file': 'neighborhoods/Neighboorhoods.shp',
@@ -30,7 +31,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 12),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Voter Precincts': {
         'file': 'voter_precincts/Precincts.shp',
@@ -42,11 +44,12 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 13),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
-    'Police Beats': {
-        'file': 'cpd_beats/cpd_beats.shp',
-        'singular': 'Police Beat',
+    '2010 Police Beats': {
+        'file': 'cpd_beats_2010/cpd_beats.shp',
+        'singular': 'Police Beat (2010)',
         'kind_first': True,
         'ider': utils.simple_namer(['BEAT_NUM']),
         'namer': utils.simple_namer(['BEAT_NUM'], normalizer=lambda s: '#%s' % s),
@@ -54,11 +57,12 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 13),
         'href': 'http://gis.chicagopolice.org/',
-        'notes': ''
-    },  
-    'Police Areas': {
-        'file': 'cpd_areas/cpd_areas.shp',
-        'singular': 'Police Area',
+        'notes': '',
+        'encoding': ''
+    },
+    '2010 Police Areas': {
+        'file': 'cpd_areas_2010/cpd_areas.shp',
+        'singular': 'Police Area (2010)',
         'kind_first': True,
         'ider': utils.simple_namer(['AREA_NUM']),
         'namer': utils.simple_namer(['AREA_NUM'], normalizer=lambda s: '#%s' % s),
@@ -66,11 +70,12 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 13),
         'href': 'http://gis.chicagopolice.org/',
-        'notes': 'Removed polygons with AREA_NUM set to NULL as they were outside the city.'
+        'notes': 'Removed polygons with AREA_NUM set to NULL as they were outside the city.',
+        'encoding': ''
     },
-    'Police Districts': {
-        'file': 'cpd_districts/cpd_districts.shp',
-        'singular': 'Police District',
+    '2010 Police Districts': {
+        'file': 'cpd_districts_2010/cpd_districts.shp',
+        'singular': 'Police District (2010)',
         'kind_first': False,
         'ider': utils.simple_namer(['DIST_NUM']),
         'namer': utils.simple_namer(['DIST_NUM'], normalizer=lambda s: ordinal(s)),
@@ -78,7 +83,60 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 13),
         'href': 'http://gis.chicagopolice.org/',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Beats': {
+        'file': 'cpd_beats_2012/cpd_beats.shp',
+        'singular': 'Police Beat',
+        'kind_first': True,
+        'ider': utils.simple_namer(['BEAT_NUM']),
+        'namer': utils.simple_namer(['BEAT_NUM'], normalizer=lambda s: '#%s' % s),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Areas': {
+        'file': 'cpd_areas_2012/cpd_areas.shp',
+        'singular': 'Police Area',
+        'kind_first': True,
+        'ider': utils.simple_namer(['AREA_NUM']),
+        'namer': utils.simple_namer(['AREA_NUM'], normalizer=lambda s: '#%s' % s),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 3, 2),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Districts': {
+        'file': 'cpd_districts_2012/cpd_districts.shp',
+        'singular': 'Police District',
+        'kind_first': False,
+        'ider': utils.simple_namer(['DIST_NUM']),
+        'namer': utils.simple_namer(['DIST_NUM'], normalizer=lambda s: ordinal(s)),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
+    },
+    'Police Sectors': {
+        'file': 'cpd_sectors_2012/cpd_sectors.shp',
+        'singular': 'Police Sector',
+        'kind_first': False,
+        'ider': utils.simple_namer(['SECTOR']),
+        'namer': utils.simple_namer(['SECTOR'], normalizer=lambda s: ordinal(s)),
+        'authority': 'Chicago Police Department',
+        'domain': 'Chicago',
+        'last_updated': date(2012, 12, 21),
+        'href': 'http://gis.chicagopolice.org/',
+        'notes': '',
+        'encoding': ''
     },
     'Census Tracts': {
         'file': 'census_tracts/tl_2010_17_tract10.shp',
@@ -90,7 +148,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2011, 1, 8),
         'href': 'http://www.census.gov/cgi-bin/geo/shapefiles2010/main',
-        'notes': 'Shapes used for 2010 census.'
+        'notes': 'Shapes used for 2010 census.',
+        'encoding': ''
     },
     'Wards': {
         'file': 'wards/Wards.shp',
@@ -102,7 +161,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 15),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': 'Metadata is far out of date, but shapes should be correct until next redistricting.'
+        'notes': 'Metadata is far out of date, but shapes should be correct until next redistricting.',
+        'encoding': ''
     },
     '2012 Wards': {
         'file': 'wards2012/CouncilPassedWards_11192012.shp',
@@ -114,7 +174,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2012, 1, 20),
         'href': 'http://chicityclerk.com/2012_redistrict.php',
-        'notes': 'Passed by City Council, Jan. 19, 2012'
+        'notes': 'Passed by City Council, Jan. 19, 2012',
+        'encoding': ''
     },
     'Zip Code Areas': {
         'file': 'zip_codes/Zip_Codes.shp',
@@ -126,7 +187,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 15),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': 'Five-digit zip codes only. (No Zip+4)'
+        'notes': 'Five-digit zip codes only. (No Zip+4)',
+        'encoding': ''
     },
     'State House of Representatives Districts': {
         'file': 'ilga_2011_redistricted/PA 97-6 House Districts.shp',
@@ -138,7 +200,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 01),
         'href': 'http://www.ilhousedems.com/redistricting/?page_id=554',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'State Senate Districts': {
         'file': 'ilga_2011_redistricted/PA 97-6 Senate Districts.shp',
@@ -150,7 +213,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 01),
         'href': 'http://www.ilhousedems.com/redistricting/?page_id=554',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'TIF Districts': {
         'file': 'tif_districts/TIFs.shp',
@@ -162,7 +226,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 15),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Counties': {
         'file': 'counties/tl_2009_17_county.shp',
@@ -174,7 +239,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www2.census.gov/cgi-bin/shapefiles2009/state-files?state=17',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Conservation Areas': {
         'file': 'conservation_areas/Conservation_Areas.shp',
@@ -186,7 +252,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Empowerment Zones': {
         'file': 'empowerment_zones/Empowerment_Zones.shp',
@@ -198,7 +265,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': 'Multi-polygons stored as single polygons in the original shapefile have been merged.'
+        'notes': 'Multi-polygons stored as single polygons in the original shapefile have been merged.',
+        'encoding': ''
     },
     'Enterprise Communities': {
         'file': 'enterprise_communities/Enterprises Communities.shp',
@@ -210,7 +278,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': 'Multi-polygons stored as single polygons in the original shapefile have been merged.'
+        'notes': 'Multi-polygons stored as single polygons in the original shapefile have been merged.',
+        'encoding': ''
     },
     'Enterprise Zones': {
         'file': 'enterprise_zones/Enterprise_Zones.shp',
@@ -222,7 +291,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Industrial Corridors': {
         'file': 'industrial_corridors/Industrial_Corridors.shp',
@@ -234,7 +304,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Planning Districts': {
         'file': 'planning_districts/Planning_Districts.shp',
@@ -246,7 +317,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Planning Regions': {
         'file': 'planning_regions/Planning_Regions.shp',
@@ -258,7 +330,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Census Places': {
         'file': 'census_places/tl_2009_17_place.shp',
@@ -270,7 +343,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2010, 12, 27),
         'href': 'http://www2.census.gov/cgi-bin/shapefiles2009/state-files?state=17',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'U.S. Congressional Districts': {
         'file': 'us_congressional_districts/PA 97-14 Congressional Districts.shp',
@@ -282,7 +356,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 9, 28),
         'href': 'http://www.ilhousedems.com/redistricting/?page_id=554',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Elementary School Districts': {
         'file': 'elementary_school_districts/tl_2009_17_elsd.shp',
@@ -294,7 +369,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2010, 12, 28),
         'href': 'http://www2.census.gov/cgi-bin/shapefiles2009/state-files?state=17',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Secondary School Districts': {
         'file': 'secondary_school_districts/tl_2009_17_scsd.shp',
@@ -306,7 +382,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2010, 12, 28),
         'href': 'http://www2.census.gov/cgi-bin/shapefiles2009/state-files?state=17',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Unified School Districts': {
         'file': 'unified_school_districts/tl_2009_17_unsd.shp',
@@ -318,7 +395,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2010, 12, 28),
         'href': 'http://www2.census.gov/cgi-bin/shapefiles2009/state-files?state=17',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Parks': {
         'file': 'parks/parks.shp',
@@ -330,7 +408,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2011, 1, 8),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Judicial Districts': {
         'file': 'judicial_districts/districts.shp',
@@ -342,7 +421,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 1),
         'href': 'http://www.state.il.us/court/appellatecourt/DistrictMap.asp',
-        'notes': 'Created by Chicago Tribune by combining counties as specified at http://www.state.il.us/court/appellatecourt/DistrictMap.asp'
+        'notes': 'Created by Chicago Tribune by combining counties as specified at http://www.state.il.us/court/appellatecourt/DistrictMap.asp',
+        'encoding': ''
     },
     'Kendall County Board Districts': {
         'file': 'kendall_county_board/KendallCoIL_2010CountyBoardDistricts.shp',
@@ -354,7 +434,8 @@ SHAPEFILES = {
         'domain': 'Kendall County',
         'last_updated': date(2012, 10, 1),
         'href': '',
-        'notes': 'Obtained by Chicago Tribune request from the Kendall County GIS Coordinator.'
+        'notes': 'Obtained by Chicago Tribune request from the Kendall County GIS Coordinator.',
+        'encoding': ''
     },
     'Will County Board Districts': {
         'file': 'will_county_board/WillCounty_Board.shp',
@@ -366,7 +447,8 @@ SHAPEFILES = {
         'domain': 'Will County',
         'last_updated': date(2012, 10, 1),
         'href': 'http://www.willcogis.org',
-        'notes': 'Obtained by Chicago Tribune request from the Will County GIS Department.'
+        'notes': 'Obtained by Chicago Tribune request from the Will County GIS Department.',
+        'encoding': ''
     },
     'McHenry County Board Districts': {
         'file': 'mchenry_county_board/McHenryCounty_Board_Districts.shp',
@@ -378,7 +460,8 @@ SHAPEFILES = {
         'domain': 'McHenry County',
         'last_updated': date(2012, 10, 1),
         'href': 'http://www.co.mchenry.il.us/departments/gis/Pages/index.aspx',
-        'notes': 'Obtained by Chicago Tribune request from the McHenry County GIS Department.'
+        'notes': 'Obtained by Chicago Tribune request from the McHenry County GIS Department.',
+        'encoding': ''
     },
     'DuPage County Board Districts': {
         'file': 'dupage_county_board/DuPageCoBoardDist2011.shp',
@@ -390,7 +473,8 @@ SHAPEFILES = {
         'domain': 'DuPage County',
         'last_updated': date(2012, 10, 1),
         'href': 'http://www.dupageco.org/gis/',
-        'notes': 'Obtained by Chicago Tribune request from the DuPage County GIS Department.'
+        'notes': 'Obtained by Chicago Tribune request from the DuPage County GIS Department.',
+        'encoding': ''
     },
     'Cook County Board of Review Districts': {
         'file': 'cook_board_of_review/cook_bor.shp',
@@ -402,7 +486,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 1),
         'href': 'http://www.ilhousedems.com/redistricting/?page_id=554',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'Forest Preserves': {
         'file': 'forest_preserves/Forestry.shp',
@@ -414,7 +499,8 @@ SHAPEFILES = {
         'domain': 'Chicago',
         'last_updated': date(2011, 1, 8),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
-        'notes': ''
+        'notes': '',
+        'encoding': ''
     },
     'County Subdivisions': {
         'file': 'county_subdivisions/tl_2010_17_cousub10.shp',
@@ -426,7 +512,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 4),
         'href': 'http://www.census.gov/cgi-bin/geo/shapefiles2010/main',
-        'notes': 'Shapes used for 2010 census.'
+        'notes': 'Shapes used for 2010 census.',
+        'encoding': ''
     },
     'Judicial Circuits': {
         'file': 'judicial_circuits/judicial_circuit.shp',
@@ -438,7 +525,8 @@ SHAPEFILES = {
         'domain': 'Illinois',
         'last_updated': date(2012, 10, 11),
         'href': 'http://www.state.il.us/court/circuitcourt/circuitmap/map1.asp',
-        'notes': 'Created by Chicago Tribune by combining counties as specified at http://www.state.il.us/court/circuitcourt/circuitmap/map1.asp'
+        'notes': 'Created by Chicago Tribune by combining counties as specified at http://www.state.il.us/court/circuitcourt/circuitmap/map1.asp',
+        'encoding': ''
     },
     'States': {
         'file': 'states/tl_2010_us_state10.shp',
@@ -450,7 +538,8 @@ SHAPEFILES = {
         'domain': 'U.S.',
         'last_updated': date(2012, 10, 12),
         'href': 'http://www.census.gov/cgi-bin/geo/shapefiles2010/main',
-        'notes': 'Shapes used for 2010 census.'
+        'notes': 'Shapes used for 2010 census.',
+        'encoding': ''
     },
     'Lake County Board Districts': {
         'file': 'lake_county_board/lake_county_board.shp',
@@ -462,7 +551,8 @@ SHAPEFILES = {
         'domain': 'Lake County',
         'last_updated': date(2012, 10, 17),
         'href': 'http://gis2.co.lake.il.us/output/kmz/cboard2012.kml',
-        'notes': 'Converted to shapefile with ogr2ogr.'
+        'notes': 'Converted to shapefile with ogr2ogr.',
+        'encoding': ''
     },
     'Cook County Board of Commissioners Districts': {
         'file': 'cook_commissioner/planim_GIS_Comm2010.shp',
@@ -474,7 +564,8 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
     'Cook Judicial Subcircuits': {
         'file': 'cook_subcircuits/cook_subcircuits.shp',
@@ -486,7 +577,8 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
     'Cook County Municipal Wards': {
         'file': 'cook_muni_wards/planim_GIS_MuniWards2011.shp',
@@ -498,7 +590,8 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
     'Cook County Fire Protection Tax Districts': {
         'file': 'cook_fire_prot_tax_district/gis_GIS_FireProTaxDist.shp',
@@ -510,7 +603,8 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
     'Cook County Library Tax Districts': {
         'file': 'cook_library_tax_district/gis_GIS_LibrTaxDist.shp',
@@ -522,7 +616,8 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
     'Cook County Park Tax Districts': {
         'file': 'cook_park_tax_district/gis_GIS_ParkTaxDist.shp',
@@ -534,6 +629,7 @@ SHAPEFILES = {
         'domain': 'Cook County',
         'last_updated': date(2012, 10, 23),
         'href': '',
-        'notes': 'Obtained via FOIA request'
+        'notes': 'Obtained via FOIA request',
+        'encoding': ''
     },
 }
