@@ -45,7 +45,7 @@ All shapefiles:
 * Judicial Districts [source](http://www.state.il.us/court/appellatecourt/DistrictMap.asp) [map](shapefiles/judicial_districts/districts.geojson)
 * Cook County Library Tax Districts [source]() [map](shapefiles/cook_library_tax_district/gis_GIS_LibrTaxDist.geojson)
 * Enterprise Communities [source](http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html) [map](shapefiles/enterprise_communities/Enterprises Communities.geojson)
-* Neighborhoods [source](http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html) [map](shapefiles/neighborhoods/Neighboorhoods.geojson)
+* Neighborhoods [source](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9) [map](shapefiles/neighborhoods/geo_export_3a141627-69d4-48ec-a29a-a71b2b4b1eeb.geojson)
 * Wards [source](http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html) [map](shapefiles/wards/Wards.geojson)
 * State Senate Districts [source](http://www.ilhousedems.com/redistricting/?page_id=554) [map](shapefiles/ilga_2011_redistricted/PA 97-6 Senate Districts.geojson)
 * Police Beats [source](http://gis.chicagopolice.org/) [map](shapefiles/cpd_beats/cpd_beats.geojson)
