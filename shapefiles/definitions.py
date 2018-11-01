@@ -22,14 +22,14 @@ SHAPEFILES = {
         'encoding': ''
     },
     'Neighborhoods': {
-        'file': 'neighborhoods/Neighboorhoods.shp',
+        'file': 'neighborhoods/geo_export_3a141627-69d4-48ec-a29a-a71b2b4b1eeb.shp',
         'singular': 'Neighborhood',
         'kind_first': False,
         'ider': utils.simple_namer(['PRI_NEIGH_']),
         'namer': utils.simple_namer(['PRI_NEIGH']),
         'authority': 'City of Chicago',
         'domain': 'Chicago',
-        'last_updated': date(2010, 12, 12),
+        'last_updated': date(2018, 11, 1),
         'href': 'http://www.cityofchicago.org/city/en/depts/doit/supp_info/gis_data.html',
         'notes': '',
         'encoding': ''
